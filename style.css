@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f7f7f7;
+    color: #222;
+}
+
+header {
+    padding: 2rem;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 0.6rem;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+th {
+    background: #fafafa;
+}
+
+.compare-box {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+select, button {
+    padding: 0.5rem;
+}
+
+pre {
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
