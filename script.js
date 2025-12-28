@@ -1,4 +1,3 @@
-alert("script.js wird geladen!");
 // =====================================================
 // 🍎🍅 OBST & GEMÜSE – BEISPIELDATEN
 // 👉 HIER FÜGST DU SPÄTER WEITERE EINTRÄGE HINZU
@@ -146,4 +145,5 @@ function compareItems() {
 
     document.getElementById("compareResult").textContent = result;
 }
+
 
