@@ -1,56 +1,26 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Obst & Gemüse Nährwerte</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Obst & Gemüse – Nährwerte</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-    <h1>🍎 Obst & Gemüse Nährwerte</h1>
-    <p>Vergleichen, analysieren & ranken</p>
-</header>
+  <h1>Obst & Gemüse – Nährwerte</h1>
 
-<main>
+  <div class="controls">
+    <button id="btn-fruit">Obst</button>
+    <button id="btn-veg">Gemüse</button>
+    <input type="text" id="search" placeholder="Suchen..." />
+  </div>
 
-    <!-- Tabelle -->
-    <section>
-        <h2>Nährwertübersicht</h2>
-        <table id="nutritionTable">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Kategorie</th>
-                    <th>Kalorien</th>
-                    <th>Protein</th>
-                    <th>Kohlenhydrate</th>
-                    <th>Fett</th>
-                    <th>Ballaststoffe</th>
-                    <th>Vitamin C</th>
-                    <th>Eisen</th>
-                    <th>Tier</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Wird per JS gefüllt -->
-            </tbody>
-        </table>
-    </section>
+  <table id="nutrition-table">
+    <thead></thead>
+    <tbody></tbody>
+  </table>
 
-    <!-- Vergleich -->
-    <section>
-        <h2>Vergleich</h2>
-        <div class="compare-box">
-            <select id="compareA"></select>
-            <select id="compareB"></select>
-            <button onclick="compareItems()">Vergleichen</button>
-        </div>
-        <pre id="compareResult"></pre>
-    </section>
-
-</main>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
+
